@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "finelighting",
+  "version": "${version}",
+  "name": "Fine Lighting",
+  "description": "Adjust block light levels to brighten up your world!",
+  "authors": ["james"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/finelighting/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.finelighting.FineLightingClient"]
+  },
+  "mixins": ["finelighting.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
